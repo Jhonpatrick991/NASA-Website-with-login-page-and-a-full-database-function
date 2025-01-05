@@ -1,0 +1,318 @@
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: 2px solid white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 85px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+} 
+.button:hover span {
+    padding-right: 25px;
+} 
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button_new {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px;
+    margin-top: -15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    }
+.button_new span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button_new span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+} 
+.button_new:hover span {
+    padding-right: 25px;
+} 
+.button_new:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.main1 {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -10px;
+}
+.nasa {
+    width: 55px;
+    margin-left: 20px ;
+}
+.navbar {
+    margin: 14px;
+    gap: 15px;
+}
+.header {
+    background-image: url("pictures/black-holes-interstellar-movie-wallpaper-5f0532ec3e463cfbd5fc68e2a1513424.jpg");
+    background-size: cover;
+    background-position: top;
+    max-width: 100%;
+    position: relative;
+    bottom: 46px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    align-self: center;
+}
+.quote {
+    font-size: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 3.4in;
+}
+.first {
+    position: relative;
+}
+.vision {
+    width: 100px;
+}
+body {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
+}
+.learnmoreq {
+    position: relative;
+    left: 640px;
+    bottom: 120px;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    padding: 10px;
+    font-size: large;
+}
+.logo {
+    display: flex;
+}
+.title {
+    color: #ffffff;
+    font-weight: bold; 
+    margin-left: 20px; 
+    font-size: 22px; 
+    letter-spacing: 0.5px; 
+}
+.username {
+    color: #6137d3;
+    font-weight: bold; 
+    margin-left: 20px; 
+    font-size: 22px; 
+    letter-spacing: 0.5px; 
+}
+.new_intro {
+    margin: 5px;
+    text-align: center;
+}
+.new_intro1 {
+    font-family: Oswald, sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    margin: 60px 0px 10px 0px;
+}
+.new_intro2 {
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-size: xx-large;
+    margin: 5px 0px 30px 0px;
+}
+.new_intro3 {
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    padding: 10px;
+    margin-bottom: 90px;
+    font-size: large;
+}
+.new_intro32 {
+    margin-bottom: 90px;
+}
+.intro {
+    text-align: center;
+}
+main {
+    align-self: center;
+}
+.intro1 {
+    font-family: Oswald, sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+}
+.intro2 {
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-size: xx-large;
+    margin-bottom: 50px
+}
+.intro3 {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: lighter;
+}
+.header2 {
+    display: flex;
+    align-self: flex-end; 
+    margin-top: 0.7in;
+}
+.header2_1 {
+    max-width: 50%;
+    max-height: 100%;
+    background-color: black;
+    text-align: start;
+    padding-top: 1.2in ;
+    padding-left: 1.2in;
+    padding-bottom: 140.6px;
+    padding-right: 0.8in;
+}
+.main_pic {
+    max-width: 50%
+}
+.quote2 {
+    font-family: Oswald, sans-serif;
+    font-weight: 10;
+    font-size: 34px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.quote2_1 {
+    font-family: sans-serif;
+    font-weight: 1000;
+    font-size: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.quote2_2 {
+    font-family: Bahnschrift Condensed;
+    font-size: large;
+    font-weight: 0;
+    color: white;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.pic1 {
+    max-height: 100%;
+    width: 680px;
+    height: 820px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-bottom: -4px;
+    padding-bottom: 0;
+}
+.aboutus1 {
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+.aboutus {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    font-size: small;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    max-height: 100%;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.footer-social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+p {
+    max-height: 100%;
+    padding: 0px 0px 10px 0px;
+}
+p.username {
+    margin: 22px 0px 22px 9px;
+}
